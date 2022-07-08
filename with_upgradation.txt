@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #0b093b;
+    color: aliceblue;
+    margin-bottom: auto;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+    align-items: center;
+    margin-left: auto;
+    min-width: 13vw;
+}
+header a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: monospace;
+    
+}
+header a:hover{
+    text-decoration: underline;
+}
+header apps{
+    margin-right: 10px;
+}
+.mainbody{
+    display: flex;
+    margin-top:0%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+}
+.mainbodylogo{
+    object-fit: contain;
+    height: 200px;
+}
+.searchInput{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 10px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    max-width: 560px;
+
+}
+input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border: none;
+    outline: none;
+}
+
+.footer{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 16, 77);
+}
+.footer__section:not(:first-child ){
+    border-top: 1px solid burlywood;
+}
+.footer__location{
+    font-size: 16px;
+    color: aliceblue;
+    font-family: monospace;
+    padding: 10px;
+}
+.footer__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: aliceblue ;
+    font-family: monospace;
+    padding: 10px;
+    
+}
+.footer__links a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer__links a:hover{
+    text-decoration: underline;
+    color: palevioletred;   
+}
+.footer__links a:not(:first-child){
+    margin-left: 27px;
+}
+.tagline{
+    font-family: monospace;
+    color: aquamarine;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex ;
+    flex-direction: column;
+}
+img{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MainPage</title>
+    <link rel="stylesheet" href="style_main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <a href="https://mail.google.com/mail/u/0/#inbox">Smail</a>
+        <a href="https://coursesnew.iitm.ac.in/">Moodle</a>
+        <span class="material-icons app">apps</span>
+        <span class="Insti_Logo"><img src="logo2.png" height="40" width="40"></span>
+        
+    </header>
+    <div class="mainbody">
+        <div><span class="mainbodylogo"><img src="SearchMElogo.png" alt="Logo"></span></div>
+        
+        
+        <div class="search">
+            <!--<div class="tagline">I know u wud come to me... coz u obv don't know abt it...</div>-->
+            <div class="searchInput">
+                <span class="material-icons">search</span>
+                <input type="text">
+                <span class="material-icons">mic</span>
+
+            </div>
+            <div class="buttons">
+                <button>Search Me-search</button>
+                <button>I'm Feeling Lucky</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <footer class="footer">
+        <div class="footer__section footer__location">
+            <span>India</span>
+        </div>
+        <div class="footer__section footer__links">
+            <a href="AboutPage.html">About</a>
+            <a href="#">Advertising</a>
+            <a href="#">How search works here?</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>  
+                     
+        </div>
+     
+        <!-- Contact Page <button class="button-cont" style="vertical-align:middle"><span>Contact the rightful owner </span></button> -->
+
+    </footer>
+    
+</body>
+</html>

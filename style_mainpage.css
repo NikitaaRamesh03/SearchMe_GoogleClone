@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #0b093b;
+    color: aliceblue;
+    margin-bottom: auto;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+    align-items: center;
+    margin-left: auto;
+    min-width: 13vw;
+}
+header a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: monospace;
+    
+}
+header a:hover{
+    text-decoration: underline;
+}
+header apps{
+    margin-right: 10px;
+}
+.mainbody{
+    display: flex;
+    margin-top:6%;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    
+}
+.mainbodylogo{
+    object-fit: contain;
+    height: 250px;
+}
+.searchInput{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    height: 30px;
+    padding: 10px 10px;
+    border-radius: 999px;
+    width: 75vw;
+    margin: 0 auto;
+    max-width: 560px;
+
+}
+input{
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+}
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #f8f8f8;
+    border: none;
+    outline: none;
+}
+
+.footer{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 16, 77);
+}
+.footer__section:not(:first-child ){
+    border-top: 1px solid burlywood;
+}
+.footer__location{
+    font-size: 16px;
+    color: aliceblue;
+    font-family: monospace;
+    padding: 10px;
+}
+.footer__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: aliceblue ;
+    font-family: monospace;
+    padding: 10px;
+    
+}
+.footer__links a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer__links a:hover{
+    text-decoration: underline;
+    color: palevioletred;   
+}
+.footer__links a:not(:first-child){
+    margin-left: 27px;
+}
+.tagline{
+    font-family: monospace;
+    color: aquamarine;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex ;
+    flex-direction: column;
+}
+.Insti_Logo{
+    padding: 10px;
+}
+
